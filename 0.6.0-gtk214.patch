@@ -1,0 +1,14 @@
+Gtk-WARNING **: GtkSpinButton: setting an adjustment with non-zero page 
+size is deprecated at /usr/bin/clawsker line 458.
+
+--- origsrc/clawsker-0.6.0/clawsker	2009-01-24 13:55:37.000000000 -0600
++++ src/clawsker-0.6.0/clawsker	2009-01-27 21:22:40.453625000 -0600
+@@ -453,7 +453,7 @@ sub new_text_box_for_int {
+     my $glabel = Gtk2::Label->new ($label);
+     my $pagei = int (($type[2] - $type[1]) / 10);
+     my $adjust = Gtk2::Adjustment->new (
+-            $HPVALUE{$name}, $type[1], $type[2], 1, $pagei, 10
++            $HPVALUE{$name}, $type[1], $type[2], 1, $pagei, 0
+ 	);
+     my $gentry = Gtk2::SpinButton->new ($adjust, 1, 0);
+     $gentry->set_numeric (TRUE);

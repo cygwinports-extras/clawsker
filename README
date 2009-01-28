@@ -12,15 +12,15 @@ configuration text files directly, now it is possible with a convenient
 GTK2 interface using Clawsker.
 
 Runtime requirements:
-  perl-5.10.0-4
-  perl-Glib-1.183-1
-  perl-Gtk2-1.183-1
+  perl-5.10.0-5
+  perl-Glib-1.200-1
+  perl-Gtk2-1.202-1
   perl-Locale-gettext-1.05-3  
 
 Build requirements:
-  cygport-0.3.12-1
-  gettext-devel-0.15-1
-  perl-5.10.0-4
+  cygport-0.4.3-1
+  gettext-devel-0.17-2
+  perl-5.10.0-5
   sed-4.1.5-2
 
 Canonical website:
@@ -32,28 +32,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack clawsker-0.5.0-X-src.tar.bz2
+  unpack clawsker-0.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./clawsker-0.5.0-X.cygport all
+  cygport ./clawsker-0.6.0-X.cygport all
 
 This will create:
-  /usr/src/clawsker-0.5.0-X-src.tar.bz2
-  /usr/src/clawsker-0.5.0-X.tar.bz2
+  /usr/src/clawsker-0.6.0-X-src.tar.bz2
+  /usr/src/clawsker-0.6.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/clawsker
-  /usr/share/doc/clawsker-0.5.0/AUTHORS
-  /usr/share/doc/clawsker-0.5.0/COPYING
-  /usr/share/doc/clawsker-0.5.0/ChangeLog
-  /usr/share/doc/clawsker-0.5.0/NEWS
-  /usr/share/doc/clawsker-0.5.0/README
+  /usr/share/doc/clawsker-0.6.0/AUTHORS
+  /usr/share/doc/clawsker-0.6.0/COPYING
+  /usr/share/doc/clawsker-0.6.0/ChangeLog
+  /usr/share/doc/clawsker-0.6.0/NEWS
+  /usr/share/doc/clawsker-0.6.0/README
   /usr/share/locale/es/LC_MESSAGES/clawsker.mo
   /usr/share/locale/fr/LC_MESSAGES/clawsker.mo
+  /usr/share/locale/it/LC_MESSAGES/clawsker.mo
   /usr/share/locale/sr/LC_MESSAGES/clawsker.mo
   /usr/share/locale/sr@latin/LC_MESSAGES/clawsker.mo
   /usr/share/man/man1/clawsker.1.gz
@@ -61,6 +62,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.6.0-1 -----
+Version bump.
 
 ----- version 0.5.0-1 -----
 Initial release for Cygwin.
