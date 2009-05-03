@@ -1,5 +1,5 @@
 category: Gnome Mail
-requires: perl perl-Glib perl-Gtk2 perl-Locale-gettext
+requires: claws-mail perl perl-Glib perl-Gtk2 perl-Locale-gettext
 sdesc: "Claws Mail hidden preferences editor"
 ldesc: "Clawsker is an applet to edit Claws Mail's hidden preferences.
 Claws Mail has a high number of configurable options and, in order to 
