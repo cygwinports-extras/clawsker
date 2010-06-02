@@ -1,7 +1,6 @@
 DESCRIPTION="Claws Mail hidden preferences editor"
 HOMEPAGE="http://www.claws-mail.org/clawsker"
 SRC_URI="http://www.claws-mail.org/tools/${P}.tar.gz"
-PATCH_URI="0.6.0-gtk214.patch"
 
 MAKEOPTS+=" PREFIX=/usr"
 

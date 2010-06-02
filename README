@@ -13,16 +13,16 @@ GTK2 interface using Clawsker.
 
 Runtime requirements:
   claws-mail
-  perl-5.10.0-5
-  perl-Glib-1.221-1
-  perl-Gtk2-1.220-1
-  perl-Locale-gettext-1.05-10
+  perl-5.10.1-3
+  perl-Glib-1.222-1
+  perl-Gtk2-1.221-1
+  perl-Locale-gettext-1.05-11
 
 Build requirements:
-  cygport-0.9.6-1
-  gettext-devel-0.17-10
-  perl-5.10.0-5
-  sed-4.1.5-2
+  cygport-0.9.84-1
+  gettext-devel-0.17-11
+  perl-5.10.1-3
+  sed-4.2.1-1
 
 Canonical website:
   http://www.claws-mail.org/clawsker
@@ -33,36 +33,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack clawsker-0.6.0-X-src.tar.bz2
+  unpack clawsker-0.7.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./clawsker-0.6.0-X.cygport all
+  cygport ./clawsker-0.7.1-X.cygport all
 
 This will create:
-  /usr/src/clawsker-0.6.0-X-src.tar.bz2
-  /usr/src/clawsker-0.6.0-X.tar.bz2
+  /usr/src/clawsker-0.7.1-X-src.tar.bz2
+  /usr/src/clawsker-0.7.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/clawsker
-  /usr/share/doc/clawsker/AUTHORS
-  /usr/share/doc/clawsker/COPYING
-  /usr/share/doc/clawsker/ChangeLog
-  /usr/share/doc/clawsker/NEWS
-  /usr/share/doc/clawsker/README
-  /usr/share/locale/es/LC_MESSAGES/clawsker.mo
-  /usr/share/locale/fr/LC_MESSAGES/clawsker.mo
-  /usr/share/locale/it/LC_MESSAGES/clawsker.mo
-  /usr/share/locale/sr/LC_MESSAGES/clawsker.mo
-  /usr/share/locale/sr@latin/LC_MESSAGES/clawsker.mo
-  /usr/share/man/man1/clawsker.1.gz
-
-------------------
-
 Port Notes:
+
+----- version 0.7.1-1 -----
+Version bump.
 
 ----- version 0.6.0-10 -----
 Initial release for Cygwin 1.7.
