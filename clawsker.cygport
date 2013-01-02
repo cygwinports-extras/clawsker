@@ -21,3 +21,10 @@ src_compile() {
 	cd ${B}
 	cygmake
 }
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_desktop_entry clawsker "Claws Mail Preferences" claws-mail "Settings"
+}
